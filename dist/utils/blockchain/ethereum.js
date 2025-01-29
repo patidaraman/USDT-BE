@@ -6,7 +6,7 @@ const config = {
   ethereum: {
     providerUrl: process.env.ETH_PROVIDER_URL,
     usdtAddress: process.env.ETH_USDT_ADDRESS,
-    usdtAbi: JSON.parse(process.env.ETH_USDT_ABI),
+    usdtAbi: ["function balanceOf(address owner) view returns (uint256)"],
   },
 };
 
