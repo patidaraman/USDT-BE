@@ -1,0 +1,9 @@
+# Ignore payments directory
+/server/payments/
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore var/constants.js file
+/server/var/constants.js
+
